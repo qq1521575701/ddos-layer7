@@ -1,3 +1,12 @@
+### 安装 （docker）
+
+	apt update -y && apt install docker.io -y && apt install git -y && git clone https://github.com/qq1521575701/ddos-layer7.git
+
+
+
+
+
+
 ## Features And Methods
 
  * 💣 Layer7
@@ -66,11 +75,3 @@ python3 start.py tools
   * ❌ STOP  | 停止一切攻击
   * 🌠 TOOLS | 控制台工具
   * 👑 HELP | 显示使用脚本
-
-
-### 安装 （docker）
-
-	apt update -y && apt install docker.io -y && apt install git -y && git clone https://github.com/qq1521575701/ddos-layer7.git
-
-
-
