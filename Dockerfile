@@ -1,9 +1,7 @@
 FROM python:3.8.12-buster
 
-WORKDIR /app
-COPY ./ ./
-COPY files files
+COPY . /root/
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r /root/requirements.txt
 
-ENTRYPOINT ["python3", "/app/start.py"]
+WORKDIR /root
