@@ -1,6 +1,7 @@
 ### 安装 （docker）
 
-	apt update -y && apt install docker.io -y && apt install git -y && git clone https://github.com/qq1521575701/ddos-layer7.git
+	apt update -y && apt install docker.io -y && apt install git -y && git clone https://github.com/qq1521575701/ddos-layer7.git && cd ddos-layer7 && docker build -t ddos-layer7 . && docker run -itd --name ddos-layer7 --network host ddos-layer7:latest && rm -rf ~/ddos-layer7
+
 
 
 
