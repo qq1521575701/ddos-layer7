@@ -27,6 +27,29 @@ MEM放大
 
 
 
+python3 start.py <1=方法> <2=url> <3=socks_type> <4=线程> <5=proxylist> <6=rpc> <7=time> <8=debug=可选>
+
+python3 start.py <1=方法> <2=ip：port> <3=线程> <4=time> <5=debug=可选>
+
+python3 start.py <1=方法> <2=ip：port> <3=threads> <4=time> <5=socks_type> <6=proxylist> <7=debug=可选>
+
+python3 MHDDoS/start.py <1=方法> <2=ip：port> <3=threads> <4=time> <5=refelector file> <6=debug=optional>
+
+Proxy Types 0=All Proxy  1=HTTP  4=SOCKS4  5=SOCKS5
+
+
+SLOW
+
+	docker exec -it ddos-layer7 python3 start.py SLOW url 0 1 null_proxy.txt 200 60
+
+
+
+
+
+
+
+
+
 ## Features And Methods
 
  * 💣 Layer7
