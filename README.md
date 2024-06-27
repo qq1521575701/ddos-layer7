@@ -11,7 +11,7 @@
 
 	docker exec -it ddos-layer7 /bin/bash
 
-### 使用（docker）
+#### ddos-layer4使用（放大）
 
 
 ## Features And Methods
