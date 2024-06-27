@@ -40,7 +40,7 @@ Proxy Types 0=All Proxy  1=HTTP  4=SOCKS4  5=SOCKS5
 
 SLOW
 
-	docker exec -it ddos-layer7 python3 start.py SLOW url 0 1 null_proxy.txt 200 60
+	docker exec -it ddos-layer7 python3 start.py SLOW url 0 1 null_proxy.txt 200 60 &
 
 
 
